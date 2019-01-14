@@ -1,15 +1,15 @@
-server:
-  port: 8004
-spring:
-  application:
-    name: oms-config
-  profiles:
-    active: native  #设置为本地启动的方式，而不是通过git
-  cloud:
-    config:
-      server:
-        native:
-          search-locations: classpath:/config
+#server:
+#  port: 8004
+#spring:
+#  application:
+#    name: oms-config
+#  profiles:
+#    active: native  C设置为本地启动的方式，而不是通过git
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: classpath:/config
 
 eureka:
   instance:
@@ -19,3 +19,17 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8001/eureka/
 
+server:
+  port:8004
+spring:
+  application:
+    name: oms-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wang19920828/oms.git
+          search-paths: oms-config
+          username:
+          password:
+          basedir: C:\Users\wang_zy\Desktop\oms

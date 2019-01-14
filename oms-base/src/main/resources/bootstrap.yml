@@ -8,9 +8,9 @@ spring:
             service-id: oms-config
         fail-fast: true
         label: master
-        password: springcloud
+        password:
         profile: dev
-        username: springcloud
+        username:
     retry:
         initial-interval: 1000
         max-attempts: 6
@@ -24,6 +24,12 @@ eureka:
     instance:
         instance-id: ${spring.application.name}
         prefer-ip-address: true
-management:
+management:    #动态刷新配置 ---需要忽略权限拦截
     security:
         enabled: false
+
+
+
+
+
+

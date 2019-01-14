@@ -5,7 +5,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
-@EnableDiscoveryClient
+@EnableDiscoveryClient // 服务注册与发现
 @EnableConfigServer
 @SpringBootApplication
 public class OmsConfigApplication {
