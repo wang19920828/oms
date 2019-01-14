@@ -1,0 +1,29 @@
+spring:
+  zipkin:
+    base-url: http://localhost:9411
+server:
+  port: 8002
+ribbon:
+  ConnectTimeout: 60000
+  ReadTimeout: 60000
+zuul:
+  routes:
+    a:
+      path: /oms-admin/**
+      serviceId: oms-admin
+    api-admin:
+      path: /api/order/**
+      serviceId: api-orderBill
+    api-order:
+      path: /api/admin/**
+      serviceId: api-admin
+    api-base:
+          path: /api/base/**
+          serviceId: api-base
+  sensitiveHeaders: \*\
+
+
+
+  
+                      
+       

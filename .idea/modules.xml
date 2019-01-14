@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/oms-admin/oms-admin.iml" filepath="$PROJECT_DIR$/oms-admin/oms-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oms-base/oms-base.iml" filepath="$PROJECT_DIR$/oms-base/oms-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oms-cms/oms-cms.iml" filepath="$PROJECT_DIR$/oms-cms/oms-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oms-common/oms-common.iml" filepath="$PROJECT_DIR$/oms-common/oms-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oms-config/oms-config.iml" filepath="$PROJECT_DIR$/oms-config/oms-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oms-eureka/oms-eureka.iml" filepath="$PROJECT_DIR$/oms-eureka/oms-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oms-orderBill/oms-orderBill.iml" filepath="$PROJECT_DIR$/oms-orderBill/oms-orderBill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oms-parent.iml" filepath="$PROJECT_DIR$/oms-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oms-zuul/oms-zuul.iml" filepath="$PROJECT_DIR$/oms-zuul/oms-zuul.iml" />
+    </modules>
+  </component>
+</project>
